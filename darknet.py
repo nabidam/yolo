@@ -311,8 +311,8 @@ class Darknet(nn.Module):
 
 
 # test the create_modules code
-blocks = parse_cfg("cfg/yolov3.cfg")
-print(create_modules(blocks))
+# blocks = parse_cfg("cfg/yolov3.cfg")
+# print(create_modules(blocks))
 
 # test make input image
 # model = Darknet("cfg/yolov3.cfg")
